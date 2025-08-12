@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import f1_score, accuracy_score
 import clip
-from cervix_dataset import CervixDataset      # <-- Updated dataset class for cervix data
+from preprocess_CERVIX import CervixDataset      # <-- your CSV-based dataset
 import utils
 
 # -------------------
