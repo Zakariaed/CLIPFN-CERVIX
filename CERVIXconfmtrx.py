@@ -9,10 +9,10 @@ import os
 from torch.autograd import Variable
 import matplotlib.pyplot as plt
 import numpy as np
-from models.clip import clip
+import clip
 from sklearn.metrics import confusion_matrix, classification_report
 from torchvision import models
-from cervix_dataset import CervixDataset  # <-- Updated Dataset class
+from preprocess_CERVIX import CervixDataset  # <-- Updated Dataset class
 
 # -------------------
 # Argument Parser
