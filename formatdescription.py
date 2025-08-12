@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Path to your cervix dataset
-dataset_path = 'datasets/cervix_data_224'
+dataset_path = 'cervix_data_224'
 
 # Class descriptions for cervical histopathology
 class_descriptions = {
